@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5F311FA7290312000078AD97 /* BasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F311FA6290312000078AD97 /* BasicAnimationView.swift */; };
 		5F311FAA290318350078AD97 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F311FA9290318350078AD97 /* Example.swift */; };
+		5F311FAD29031A800078AD97 /* BasicPolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F311FAC29031A800078AD97 /* BasicPolygonShape.swift */; };
+		5F82DF8A29031C9F0079F8C5 /* BasicPolygonShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82DF8929031C9F0079F8C5 /* BasicPolygonShapeView.swift */; };
 		5FE207DA28DB57FB005C1A4B /* SwiftUIExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE207D928DB57FB005C1A4B /* SwiftUIExamplesApp.swift */; };
 		5FE207DC28DB57FB005C1A4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE207DB28DB57FB005C1A4B /* ContentView.swift */; };
 		5FE207DE28DB57FC005C1A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE207DD28DB57FC005C1A4B /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		5F311FA6290312000078AD97 /* BasicAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationView.swift; sourceTree = "<group>"; };
 		5F311FA9290318350078AD97 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		5F311FAC29031A800078AD97 /* BasicPolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPolygonShape.swift; sourceTree = "<group>"; };
+		5F82DF8929031C9F0079F8C5 /* BasicPolygonShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPolygonShapeView.swift; sourceTree = "<group>"; };
 		5FE207D628DB57FB005C1A4B /* SwiftUIExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE207D928DB57FB005C1A4B /* SwiftUIExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesApp.swift; sourceTree = "<group>"; };
 		5FE207DB28DB57FB005C1A4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +43,7 @@
 		5F311FA5290311D20078AD97 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				5F311FAB29031A640078AD97 /* BasicPolygonShape */,
 				5F311FA8290317BB0078AD97 /* BasicAnimation */,
 			);
 			path = Animations;
@@ -50,6 +55,15 @@
 				5F311FA6290312000078AD97 /* BasicAnimationView.swift */,
 			);
 			path = BasicAnimation;
+			sourceTree = "<group>";
+		};
+		5F311FAB29031A640078AD97 /* BasicPolygonShape */ = {
+			isa = PBXGroup;
+			children = (
+				5F311FAC29031A800078AD97 /* BasicPolygonShape.swift */,
+				5F82DF8929031C9F0079F8C5 /* BasicPolygonShapeView.swift */,
+			);
+			path = BasicPolygonShape;
 			sourceTree = "<group>";
 		};
 		5FE207CD28DB57FB005C1A4B = {
@@ -159,9 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F311FAD29031A800078AD97 /* BasicPolygonShape.swift in Sources */,
 				5F311FAA290318350078AD97 /* Example.swift in Sources */,
 				5FE207DC28DB57FB005C1A4B /* ContentView.swift in Sources */,
 				5F311FA7290312000078AD97 /* BasicAnimationView.swift in Sources */,
+				5F82DF8A29031C9F0079F8C5 /* BasicPolygonShapeView.swift in Sources */,
 				5FE207DA28DB57FB005C1A4B /* SwiftUIExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

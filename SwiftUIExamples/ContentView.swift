@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let examples = ["Animations": [BasicAnimationView()]]
+    let examples: [String: [Example]] = ["Animations": [BasicAnimationView(), BasicPolygonShapeView()]]
     
     var body: some View {
         NavigationView {
