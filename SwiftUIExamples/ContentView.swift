@@ -11,7 +11,8 @@ struct ContentView: View {
     let examples: [String: [Example]] = ["Animations": animationExamples]
     private static let animationExamples: [Example] = [BasicAnimationView(),
                                                        BasicPolygonShapeView(),
-                                                       AdvancedPolygonShapeView()]
+                                                       AdvancedPolygonShapeView(),
+                                                       AnimatedAnalogClockView()]
     
     var body: some View {
         NavigationView {
